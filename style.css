@@ -37,12 +37,14 @@ nav ul li a {
     color: #fff;
     padding: 10px;
     text-transform: uppercase;
+    text-decoration: none;
 }
 
 nav ul li a:hover,
 a.active {
     background-color: #3352F2;
     border-radius: 5px;
+    color: white;
 }
 
 .main-content {
@@ -151,4 +153,39 @@ a.active {
 .amount {
     display: flex;
     justify-content: space-between;
+}
+
+
+/* extra work */
+
+.extra-section {
+    padding: 0;
+    background: rgba(112, 184, 103, .3);
+    width: 70%;
+    height: 150px;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 150px;
+    margin-top: 150px;
+    border-radius: 10px;
+    display: none;
+}
+
+.extra-section h2 {
+    font-size: 41px;
+    color: #d64d4d;
+}
+
+.extra-section span {
+    color: rgb(78, 175, 78);
+    font-size: 48px;
+}
+
+.extra-section h3 {
+    font-size: 61px;
+    color: #d64d4d;
+}
+
+.extra-section i {
+    font-size: 45px;
 }
